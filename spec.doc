@@ -1,37 +1,57 @@
-                                                                    Library Management System
+﻿Library Management System
+
+Introduction: 
+Hey there! 
+Do you know how libraries have all those awesome books, magazines, and other cool stuff? Well, LMS is like your personal library. It helps keep track of all those things, so you can find what you want and borrow it hassle-free.
+
+So, if you're a librarian, it helps you organize the library like a pro. And if you're someone who loves reading, it makes finding and borrowing books a breeze. No more hunting for hours or wondering when your books are due back.
+
+LMS is all about making your library experience smooth and enjoyable. Let's dive in and see how it can improve your library adventures!
+
+Team Name: Black Hawks
+
+Team Members: 
+• Akash Kapoor
+• Guru Singh Pal
+• Jashandeep Singh
+• Utsav Pandey
+• Yuvraj Cheema
+• Abhishek Dhureja
 
 Functionalities:
-•	User Management:
-1.	User registration and authentication
-2.	User access control
-3.	Profile management
+• User Management:
+1. User registration and authentication
+2. User access control
+3. Profile management
 
-•	Check-In/Check-Out:
-1.	Borrowing and returning items.
-2.	Due date calculation and notification.
-3.	Overdue fines and penalty management.
+• Check-In/Check-Out:
+1. Borrowing and returning items.
+2. Due date calculation and notification.
+3. Overdue fines and penalty management.
 
-•	Catalogue Management:
-1.	Add, edit, and delete books and other library items.
-2.	Barcode generation and management for physical items.
-3.	Categorization and classification of items by genre, author, subject, etc.
-4.	ISBN lookup to fetch book details automatically.
-5.	Copy management (tracking multiple copies of the same book).
+• Catalogue Management:
+1. Add, edit, and delete books and other library items.
+2. Barcode generation and management for physical items.
+3. Categorization and classification of items by genre, author, subject, etc.
+4. ISBN lookup to fetch book details automatically.
+5. Copy management (tracking multiple copies of the same book).
 
-•	Search and Discovery:
-1.	Robust search functionality, including advanced search options.
-2.	Filtering and sorting options.
-3.	Availability status of items.
+• Search and Discovery:
+1. Robust search functionality, including advanced search options.
+2. Filtering and sorting options.
+3. Availability status of items.
 
-•	User History:
-1.	Keep a record of users' borrowing history.
-2.	View and export borrowing history.
+• User History:
+1. Keep a record of users' borrowing history.
+2. View and export borrowing history.
 
-•	Notifications:
-1.	Email or SMS notifications for due dates, overdue, and reservation status.
-2.	Announcements and updates from the library.
+• Notifications:
+1. Email or SMS notifications for due dates, overdue, and reservation status.
+2. Announcements and updates from the library.
 
-•	Inventory Management:
-1.	Track and manage the library's physical inventory.
-2.	Handle lost, damaged, or missing items.
+• Inventory Management:
+1. Track and manage the library's physical inventory.
+2. Handle lost, damaged, or missing items.
+
+
 
