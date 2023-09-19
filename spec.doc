@@ -1,4 +1,5 @@
-Library Management System
+                                                                        Library Management System
+
 19th September, 2023
 
 Introduction: 
@@ -53,6 +54,15 @@ Functionalities:
 • Inventory Management:
 1. Track and manage the library's physical inventory.
 2. Handle lost, damaged, or missing items.
+
+• Fine Management:
+
+1. Configure fine rates and policies.
+2. Accept and track fine payments.
+
+• Barcode Scanning:
+
+1. Integration with barcode scanners for quick item handling.
 
 
 User Roles:
