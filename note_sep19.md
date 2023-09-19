@@ -59,8 +59,6 @@ Contents of requirement spec
         OS/Hardware 
 
 [do not restrict your project to specific language or api]
-(rant about specific languages)
-(rant about mongodb)
 
 Requirement Analysis
     - Define Problem to Solve
@@ -84,8 +82,6 @@ Functional Specification
     - Use casual language
 
 
-(hun menu neend aagi)
-
 External Interface Specification
     - Describes how software interacts with other components
     - External interfaces of Library management system
@@ -106,4 +102,6 @@ Do we need tech specs for our project?
     - It is ok to not define tech specs for our project at the start
     - We can decided them on the go
     - We can decide them based on the requirements
-    
+
+References
+    - Painless Functional Specs (Part1-4) by Joel Spolsky
