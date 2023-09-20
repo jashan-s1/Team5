@@ -24,7 +24,7 @@ Libraries are a large scale collection of books, music and other media. To manag
 
 We intend to make a library management program to track the media available, the application will have information about the media for the users including the title, publisher and author etc. For the admins the application will have features which allow them to edit the data entries of the media in the library.
 
-The target audience is anyone who wants to learn by borrowing a book from the library, this will include majority students and bookworms.
+**The target audience** is anyone who wants to learn by borrowing a book from the library, this will include majority students and bookworms.
 
 The app will be termed as successful if a new user can easily find their required media from the application
 
