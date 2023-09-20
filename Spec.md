@@ -1,3 +1,23 @@
+# THE MAVERICS
+19 September 2023
+# Library Management System
+
+## The Team
+• Akash Kapoor
+• Guru Singh Pal
+• Jashandeep Singh
+• Utsav Pandey
+• Yuvraj Singh Cheema
+• Abhishek Dhureja
+
+
+## Introduction
+
+Well, LMS is like your personal library. It helps keep track of all those things, so you can find what you want and borrow it hassle-free. So, if you're a librarian, it helps you organize the library like a pro. And if you're someone who loves reading, it makes finding and borrowing books a breeze. No more hunting for hours or wondering when your books are due back. LMS is all about making your library experience smooth and enjoyable. Let's dive in and see how it can improve your library adventures!
+
+## Purpose
+The purpose of a Library Management System (LMS) is to efficiently and effectively manage all aspects of a library's operations and resources.  It also helps in managing & tracking the daily work of the library such as issuing books, return books, due calculations, etc. This software-based system is designed to streamline the processes involved in cataloguing, organizing, circulating, and maintaining a library's collection of books, digital media, periodicals, and other materials.
+
 ## Requirement Analysis
 
 Libraries are a large scale collection of books, music and other media. To manage such database special computer programs are required. 
