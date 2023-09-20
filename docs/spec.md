@@ -33,24 +33,12 @@ The app will be termed as successful if a new user can easily find their require
 
 For a user the app will have a home page with previous searched and borrowed media. A search bar on top will allow the user to browse through content in the library.
 
-### Functions
-
-**User Management:**
-1. User registration and authentication
-2. User access control
-3. Profile management
+### User Functions
 
 **Check-In/Check-Out:**
 1. Borrowing and returning items.
 2. Due date calculation and notification.
 3. Overdue fines and penalty management.
-
-**Catalogue Management:**
-1. Add, edit, and delete books and other library items.
-2. Barcode generation and management for physical items.
-3. Categorization and classification of items by genre, author, subject, etc.
-4. ISBN lookup to fetch book details automatically.
-5. Copy management (tracking multiple copies of the same book).
 
 **Search and Discovery:**
 1. Robust search functionality, including advanced search options.
@@ -64,6 +52,23 @@ For a user the app will have a home page with previous searched and borrowed med
 **Notifications:**
 1. Email or SMS notifications for due dates, overdue, and reservation status.
 2. Announcements and updates from the library.
+
+**Fine Management:**
+1. Accept and track fine payments.
+
+### Admin Functions
+
+**User Management:**
+1. User registration and authentication
+2. User access control
+3. Profile management
+
+**Catalogue Management:**
+1. Add, edit, and delete books and other library items.
+2. Barcode generation and management for physical items.
+3. Categorization and classification of items by genre, author, subject, etc.
+4. ISBN lookup to fetch book details automatically.
+5. Copy management (tracking multiple copies of the same book).
 
 **Inventory Management:**
 1. Track and manage the library's physical inventory.
