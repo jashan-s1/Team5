@@ -1,4 +1,4 @@
-# THE MAVERICS
+# THE MAVERICKS
 19 September 2023
 # Library Management System
 
