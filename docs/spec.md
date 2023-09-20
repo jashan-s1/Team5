@@ -81,6 +81,12 @@ For a user the app will have a home page with previous searched and borrowed med
 **Barcode Scanning:**
 1. Integration with barcode scanners for quick item handling.
 
+### Interface Designs
+
+**Administrator Homepage**
+![Admin Homepage](assets/Admin_Homepage.png)
+
+
 ### Scenarios
 
 Assuming Isabella wants to borrow a book for Phineas, she will navigate to the appplication and search for the book, she can furter narrow down the results using specific authors, publishers or even use ISBN number to search for the book.
