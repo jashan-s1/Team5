@@ -23,16 +23,11 @@ Team Members:
 • Abhishek Dhureja
 
 Requirement Analysis
-We're aiming to solve several common challenges faced by libraries and library users such as:
 
-1. Efficiency: Libraries often have a lot of books and materials to manage. Our project aims to make the process of cataloging, organizing, and lending these items more efficient for librarians.
-
-2. Accessibility: Library users sometimes struggle to find the books they want or to know when they're due back. We're working to make it easier for people to find books and keep track of their borrowing.
-
-3. Record Keeping: Managing records of borrowed and returned items can be a time-consuming task for librarians. Our project helps in automating this process, reducing the burden on library staff.
-
-4. Communication: Libraries may find it challenging to notify users about due dates, overdue fines, or the availability of reserved books. We're creating a system that improves communication between libraries and users.
-
+Libraries are a large scale collection of books, music and other media. To manage such database special computer programs are required.
+We intend to make a library management program to track the media available, the application will have information about the media for the users including the title, publisher and author etc. For the admins the application will have features which allow them to edit the data entries of the media in the library.
+The userbase of the appliction is the average internet user
+The app will be termed as successful if a new user can easily find their required media from the application
 
 Functionalities:
 • User Management:
