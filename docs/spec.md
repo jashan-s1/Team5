@@ -24,7 +24,7 @@ Libraries are a large scale collection of books, music and other media. To manag
 
 We intend to make a library management program to track the media available, the application will have information about the media for the users including the title, publisher and author etc. For the admins the application will have features which allow them to edit the data entries of the media in the library.
 
-**THE TARGET AUDIENCE** is anyone who wants to learn by borrowing a book from the library, this will include majority students and bookworms.
+**THE TARGET AUDIENCE:** The application intends to make the task of a Librarian easy, as well as allow an easy interface for the readers to manage borrowed books.
 
 The app will be termed as successful if a new user can easily find their required media from the application
 
@@ -84,12 +84,10 @@ Assuming Isabella wants to borrow a book for Phineas, she will navigate to the a
 
 The application needs to communicate with the database in the backend to get the information about the books available
 
-The application needs a GUI for the user to access it's functions
+The application needs to connect to an API for Email/SMS
+
+The application needs a module to connect to thhe barcode scanner
 
 ## Technical Spec
 
 The primary user of the app will be on Windows machines, for this the app could be web based or local (TBD)
-
-The backend server can be local or cloud based (TBD)
-
-Programming Languages used: (TBD)
