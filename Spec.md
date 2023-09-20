@@ -89,5 +89,7 @@ The application needs a GUI for the user to access it's functions
 ## Technical Spec
 
 The app needs to run on Windows machines
+
 The backend server can be local or cloud based (TBD)
+
 Programming Languages used: (TBD)
