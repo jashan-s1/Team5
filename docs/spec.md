@@ -111,9 +111,6 @@ For a user the app will have a home page with previous searched and borrowed med
 **Edit Book**
 ![Edit Book](assets/edit_book.png) 
 
-**Review Page**
-![Review Page](docs/assets/review page.png)
-
 
 ### Scenarios
 
