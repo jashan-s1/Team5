@@ -104,6 +104,8 @@ For a user the app will have a home page with previous searched and borrowed med
 **Administrator Homepage**
 ![Admin Homepage](assets/admin_home.png)
 
+**Lend Book**
+![Lend Book](assets/lend_book.png)
 
 ### Scenarios
 
