@@ -96,14 +96,10 @@ For a user the app will have a home page with previous searched and borrowed med
 ![User Homepage](assets/registration_interface.png)
 
 **User Homepage**
-![User Homepage](assets/user_homepage.png)
-
-**User Homepage**
-![User Homepage](assets/user_homepage.png)
-
+![User Homepage](assets/user_home.png)
 
 **Administrator Homepage**
-![Admin Homepage](assets/admin_homepage.png)
+![Admin Homepage](assets/admin_home.png)
 
 
 ### Scenarios
