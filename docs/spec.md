@@ -83,6 +83,10 @@ For a user the app will have a home page with previous searched and borrowed med
 
 ### Interface Designs
 
+**User Homepage**
+![User Homepage](assets/User_Homepage.png)
+
+
 **Administrator Homepage**
 ![Admin Homepage](assets/Admin_Homepage.png)
 
