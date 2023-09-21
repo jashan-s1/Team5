@@ -84,16 +84,16 @@ For a user the app will have a home page with previous searched and borrowed med
 ### Interface Designs
 
 **Login Interface**
-![User Homepage](assets/login_interface.png)
+![Login Interface](assets/login_interface.png)
 
 **User Login**
-![User Homepage](assets/user_login.png)
+![User Login](assets/user_login.png)
 
 **Admin Login**
-![User Homepage](assets/admin_login.png)
+![Admin Login](assets/admin_login.png)
 
 **Registration Interface**
-![User Homepage](assets/registration_interface.png)
+![Registration Interface](assets/registration_interface.png)
 
 **User Homepage**
 ![User Homepage](assets/user_home.png)
