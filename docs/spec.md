@@ -98,6 +98,9 @@ For a user the app will have a home page with previous searched and borrowed med
 **User Homepage**
 ![User Homepage](assets/user_home.png)
 
+**Search Results**
+![Search Results](assets/search_results.png)
+
 **Administrator Homepage**
 ![Admin Homepage](assets/admin_home.png)
 
