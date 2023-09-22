@@ -1,4 +1,5 @@
 **Class Diagram**
+
 ![Class Diagram](assets/output/class_diagram.svg) 
 
 **Search Activity Diagram**
