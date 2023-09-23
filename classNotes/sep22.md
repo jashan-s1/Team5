@@ -3,7 +3,7 @@ Sep 22 : Afternoon Notes
 ### Software Design
 
 #### High Level design
-- User interface
+- User interfaces
 - Use case scenario
 - Deployment View
 - Module breakup
