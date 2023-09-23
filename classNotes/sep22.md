@@ -133,8 +133,11 @@ Sep 22 : Afternoon Notes
 - Need a destructor
 
 #### Resource leak
-- Acquired resource but not released
+- Resource leak is a coding error in which a resource is acquired but forgot to release
 - Resource leak is usually a design level problem
+- Don’t acquire a resource and keep it indefinitely
+- Decide which object owns or manage lifetime of resources
+
 
 #### Memory Leak
 - Increase memory requirement
