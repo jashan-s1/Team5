@@ -1,5 +1,5 @@
 # THE MAVERICKS
-19 September 2023
+24 September 2023
 # Library Management System
 
 ## The Team
@@ -96,4 +96,7 @@ The application needs a module to connect to thhe barcode scanner
 
 ## Technical Spec
 
-The primary user of the app will be on Windows machines, for this the app could be web based or local (TBD)
+- The primary user of the app will be on Windows machines
+- The app will be web based
+- We will be using PostgreSQL for the server backend
+- We will use Python with the django library to handle the communication between the database and the applicatio
