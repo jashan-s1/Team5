@@ -64,7 +64,7 @@ Sep 22 : Afternoon Notes
 ### What are your assumptions?
 - Document your assumptions
 - Explicit and Implicit assumptions
-- ``` char filename 256```
+- ```char filename 256```
     - Explicit assumptions
         - length of filename will not exceed 256
     - Implicit assumption
