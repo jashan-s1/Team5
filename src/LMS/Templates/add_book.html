@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+    <style>
+        /* Custom CSS for the Add Book interface */
+        body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            position: relative;
+            left: 12px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Frame1" style="width: 1002px; height: 80px; bottom: 30px; position: relative; ">
+        <img class="Profile"
+            style="width: 26px; height: 26px; left: 1450px; top: 24px; position: absolute; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25)"
+            src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_user2-64.png" />
+        <img class="Notification" style="width: 26px; height: 26px; left: 1325px; top: 24px; position: absolute;"
+            src="https://cdn0.iconfinder.com/data/icons/payment-76/512/notification-64.png" />
+        <img class="Home" style="width: 26px; height: 26px; left: 1385px; top: 24px; position: absolute;"
+            src="https://cdn4.iconfinder.com/data/icons/icon-flat-icon-set/50/home-64.png" />
+        <img class="LOGO" style="width: 194px; height: 123px; left: 370px; top: -16px; position: relative;"
+            src="LMS-logo.png" />
+        <div class="YourGatewayToKnowledgeAndCultureAccessibleForEveryone"
+            style="width: 327px; height: 45px; left: 555px; top: 29px; position: absolute; color: rgba(0, 0, 0, 0.55); font-size: 15px; font-family: Kaushan Script; font-weight: 400; word-wrap: break-word">
+            Your gateway to knowledge and culture. <br />Accessible for everyone.</div>
+    </div>
+
+    <h2>Add Book</h2>
+    <form id="bookForm">
+        <div class="form-group">
+            <label for="bookId">Book ID:</label>
+            <input type="text" id="bookId" name="bookId" required>
+        </div>
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn" required>
+        </div>
+        <div class="form-group">
+            <label for="authors">Author List (comma-separated):</label>
+            <input type="text" id="authors" name="authors" required>
+        </div>
+        <div class="form-group">
+            <label for="publisher">Publisher:</label>
+            <input type="text" id="publisher" name="publisher" required>
+        </div>
+        <div class="form-group">
+            <label for="language">Language:</label>
+            <input type="text" id="language" name="language" required>
+        </div>
+        <div class="form-group">
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required>
+        </div>
+        <button type="button" onclick="addBook()">Add Book</button>
+    </form>
+
+    <script>
+        function addBook() {
+            // Get form values
+            const bookId = document.getElementById("bookId").value;
+            const title = document.getElementById("title").value;
+            const isbn = document.getElementById("isbn").value;
+            const authors = document.getElementById("authors").value.split(",").map(author => author.trim());
+            const publisher = document.getElementById("publisher").value;
+            const language = document.getElementById("language").value;
+            const year = document.getElementById("year").value;
+
+            // Create a book object with the form data
+            const book = {
+                bookId,
+                title,
+                isbn,
+                authors,
+                publisher,
+                language,
+                year
+            };
+
+            // You can now send this book object to your server or perform any other desired action.
+            // For demonstration purposes, we'll simply log it to the console.
+            console.log("Book Information:", book);
+
+            // You can also reset the form here if needed
+            document.getElementById("bookForm").reset();
+        }
+    </script>
+</body>
+
+</html>
