@@ -21,3 +21,11 @@ def registeradmin():
 @app.route("/registeruser")
 def registeruser():
     return render_template("registeruser.html")
+
+@app.route("/admin/addbook")
+def addbook():
+    return render_template("add_book.html")
+
+@app.route("/admin/returnbook")
+def returnbook():
+    return render_template("return_book.html")
