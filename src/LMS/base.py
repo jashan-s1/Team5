@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -29,3 +29,7 @@ def addbook():
 @app.route("/admin/returnbook")
 def returnbook():
     return render_template("return_book.html")
+
+
+if __name__ == "__main__":
+    app.run()
