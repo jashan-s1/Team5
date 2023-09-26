@@ -14,3 +14,10 @@ def admin():
 def user():
     return render_template("user.html")
 
+@app.route("/registeradmin")
+def registeradmin():
+    return render_template("registeradmin.html")
+
+@app.route("/registeruser")
+def registeruser():
+    return render_template("registeruser.html")

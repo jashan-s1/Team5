@@ -118,7 +118,7 @@
 
             <button type="submit">Register</button>
         </form>
-        <p>Already have an account? <a href="user.html">Login here</a></p>
+        <p>Already have an account? <a href="{{ url_for('user') }}"">Login here</a></p>
     </div>
 
     <script>
@@ -143,7 +143,7 @@
                 alert("Registration successful!");
                 errorMessage.textContent = "";
                 // Redirect to the login page
-                window.location.href = "admin.html";
+                window.location.href = "{{ url_for('user') }}";
             }
         });
         

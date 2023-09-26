@@ -134,24 +134,10 @@
             <p>Login with your ID and Password to access your services and account. The LMS will keep the user
                 notified about all updates.</p>
 
-            <button type="submit"><a href="{{ url_for('user') }}" class="user">Login Now</a></button>
+            <button type="button" href="{{ url_for('user') }}" class="user">Login Now</button>
         </form>
     </div>
 
-    <script>
-        document.getElementById("adminLoginForm").addEventListener("submit", function (e) {
-            e.preventDefault();
-            // Perform admin login logic here (replace with your code)
-            alert("Admin login successful!");
-        });
-        
-        document.getElementById("userLoginForm").addEventListener("submit", function (e) {
-            e.preventDefault();
-            // Perform user login logic here (replace with your code)
-            alert("User login successful!");
-        });
-        
-    </script>
 </body>
 
 </html>
