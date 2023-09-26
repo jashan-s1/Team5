@@ -1,0 +1,9 @@
+{% extends 'register.html' %}
+
+{% block head %}
+<title>Admin Registration</title>
+{% endblock %}
+
+{% block login_button %}
+<p>Already have an account? <a href="{{ url_for('login_admin') }}"">Login here</a></p>
+{% endblock %}

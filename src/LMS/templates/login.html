@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    {% block head %}
+    {% endblock %}
     <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
 </head>
 <body>
     <img src="https://www.denverlibrary.org/sites/dplorg/files/2021-05/nostrings.jpeg" alt="" class="bg-img">
     <div class="login-container">
-        <h1>USER</h1>
+        {% block form_title %}
+        {% endblock %}
         <form id="loginForm">
             <label for="username">Username:</label>
             <input type="text" id="username" required>
@@ -20,7 +22,8 @@
             <button type="submit">Login</button>
         </form>
         <div id="error-message" class="error-message"></div>
-        <p>Don't have an account? <a href="{{ url_for('registeruser') }}">Register here</a></p>
+        {% block register_button %}
+        {% endblock %}
     </div>
 
     <script>

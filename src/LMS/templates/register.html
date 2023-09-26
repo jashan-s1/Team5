@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration Page</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
+    {% block head %}
+    {% endblock %}
 </head>
 
 <body>
@@ -34,7 +35,8 @@
 
             <button type="submit">Register</button>
         </form>
-        <p>Already have an account? <a href="{{ url_for('user') }}"">Login here</a></p>
+        {% block login_button %}
+        {% endblock %}
     </div>
 
     <script>
@@ -59,7 +61,7 @@
                 alert("Registration successful!");
                 errorMessage.textContent = "";
                 // Redirect to the login page
-                window.location.href = "{{ url_for('user') }}";
+                window.location.href = "{{ url_for('index') }}";
             }
         });
         
