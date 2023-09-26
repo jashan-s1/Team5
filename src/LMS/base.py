@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for, request, redirect
 
 app = Flask(__name__)
 
@@ -22,7 +22,7 @@ def register_admin():
 def register_user():
     return render_template("register_user.html")
 
-@app.route("/admin/addbook")
+@app.route("/admin/addbook", methods=["GET", "POST"])
 def add_book():
     return render_template("add_book.html")
 
