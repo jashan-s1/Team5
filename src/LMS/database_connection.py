@@ -1,12 +1,11 @@
-from flask import Flask, render_template
+from flask import current_app
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///LMS.db"
+app = current_app
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///data.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db= SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 class User(db.Model):
     user_id = db.Column(db.Integer, primary_key=True)
