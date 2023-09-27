@@ -42,3 +42,12 @@ class History(db.model):
 
     def __repr__(self):
         pass
+
+class Issued(db.model):
+    id = db.Column(db.Integer, primary_key=True)
+    serial_no = db.Column(db.Integer, db.ForeignKey('library.serial_no'), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.user_id'), nullable=False)
+    issue_date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+
+    def __repr__(self):
+        pass
