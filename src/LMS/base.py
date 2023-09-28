@@ -1,13 +1,15 @@
 from flask import Flask, render_template, url_for, request, redirect
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from flask_migrate import Migrate
 
 app = Flask(__name__)
 app.app_context()
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///data.db"
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
-
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATION']= False
+db= SQLAlchemy(app)
+migrate = Migrate(app, db)
+ 
 class User(db.Model):
     user_id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(20), nullable=False)
@@ -59,6 +61,9 @@ class Issued(db.Model):
 
 @app.route("/")
 def index():
+    data= User(user_id=7554, first_name="Jashandeep")
+    db.session.add(data)
+    db.session.commit()
     return render_template("index.html")
 
 @app.route("/login/admin")

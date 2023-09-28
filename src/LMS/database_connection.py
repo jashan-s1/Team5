@@ -6,6 +6,7 @@ app = current_app
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///data.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+app.app_context().push()
 
 class User(db.Model):
     user_id = db.Column(db.Integer, primary_key=True)
