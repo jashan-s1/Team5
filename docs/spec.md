@@ -1,5 +1,5 @@
 # THE MAVERICKS
-24 September 2023
+28 September 2023
 # Library Management System
 
 ## The Team
@@ -50,8 +50,8 @@ For a user the app will have a home page with previous searched and borrowed med
 2. View and export borrowing history.
 
 **Notifications:**
-1. Email or SMS notifications for due dates, overdue, and reservation status.
-2. Announcements and updates from the library.
+1. Announcements and updates from the library.
+2. Notifications for overdue items, fines, etc.
 
 **Fine Management:**
 1. Accept and track fine payments.
@@ -65,10 +65,8 @@ For a user the app will have a home page with previous searched and borrowed med
 
 **Catalogue Management:**
 1. Add, edit, and delete books and other library items.
-2. Barcode generation and management for physical items.
+2. Copy management (tracking multiple copies of the same book).
 3. Categorization and classification of items by genre, author, subject, etc.
-4. ISBN lookup to fetch book details automatically.
-5. Copy management (tracking multiple copies of the same book).
 
 **Inventory Management:**
 1. Track and manage the library's physical inventory.
@@ -77,9 +75,6 @@ For a user the app will have a home page with previous searched and borrowed med
 **Fine Management:**
 1. Configure fine rates and policies.
 2. Accept and track fine payments.
-
-**Barcode Scanning:**
-1. Integration with barcode scanners for quick item handling.
 
 
 ### Scenarios
@@ -90,13 +85,10 @@ Assuming Isabella wants to borrow a book for Phineas, she will navigate to the a
 
 The application needs to communicate with the database in the backend to get the information about the books available
 
-The application needs to connect to an API for Email/SMS
-
-The application needs a module to connect to thhe barcode scanner
 
 ## Technical Spec
 
 - The primary user of the app will be on Windows machines
 - The app will be web based
-- We will be using PostgreSQL for the server backend
-- We will use Python with the django library to handle the communication between the database and the applicatio
+- We will be using SQLite for the server backend
+- We will use Python with the flask library to handle the communication between the database and the application

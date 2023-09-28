@@ -1,3 +1,17 @@
+# THE MAVERICKS
+28 September 2023
+# Library Management System
+
+### The Team
+• Abhishek Dhureja
+• Akash Kapoor
+• Guru Singh Pal
+• Jashandeep Singh
+• Utsav Pandey
+• Yuvraj Singh Cheema
+
+### UML Design Diagrams
+
 **Class Diagram**
 
 ![Class Diagram](assets/output/class_diagram.svg) 

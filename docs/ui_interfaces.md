@@ -1,3 +1,15 @@
+# THE MAVERICKS
+28 September 2023
+# Library Management System
+
+### The Team
+• Abhishek Dhureja
+• Akash Kapoor
+• Guru Singh Pal
+• Jashandeep Singh
+• Utsav Pandey
+• Yuvraj Singh Cheema
+
 ### Interface Designs
 
 **Login Interface**
