@@ -42,7 +42,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adminid`, `username`, `fullname`, `adminemail`, `password`, `pic`) VALUES
-(2, 'akash_kapoor', 'AKASH KAPOOR', 'akashkapoor9988@gmail.com', 'Helovesher', 'user2.png');
+(1, 'akash_kapoor', 'AKASH KAPOOR', 'akashkapoor9988@gmail.com', 'Helovesher', 'user2.png');
 
 -- --------------------------------------------------------
 
@@ -230,10 +230,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`studentid`, `student_username`, `FullName`, `Email`, `Password`, `PhoneNumber`, `studentpic`) VALUES
-(1, 'Tahmid12', 'Nazre Imam Tahmid', 'tahmid@gmail.com', '12', '0152648790', 'tahmid.jpg'),
-(3, 'Omur', 'Omur Faruk', 'omur@gmail.com', '123456', '029833356373', 'omur.jpg'),
-(4, 'Pronob20', 'Pronob', 'pronob@gmail.com', '123456', '4344654865769', 'pronob.jpg'),
-(22, 'Nabil24', 'Nasimul Haque', 'nabil123@gmail.com', '123', '01547896589', 'user2.png');
+(1, 'jashandeep_singh', 'JASHANDEEP SINGH', 'jashandeepsingh@gmail.com', 'password@00', '6589447562'),
+(2, 'guru_singh', 'GURU SINGH PAL', 'gurusingh@gmail.com', 'guru@123', '8974872515')
 
 -- --------------------------------------------------------
 
