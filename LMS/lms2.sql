@@ -230,8 +230,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`studentid`, `student_username`, `FullName`, `Email`, `Password`, `PhoneNumber`, `studentpic`) VALUES
-(1, 'jashandeep_singh', 'JASHANDEEP SINGH', 'jashandeepsingh@gmail.com', 'password@00', '6589447562'),
-(2, 'guru_singh', 'GURU SINGH PAL', 'gurusingh@gmail.com', 'guru@123', '8974872515')
+(1, 'jashandeep_singh', 'JASHANDEEP SINGH', 'jashandeepsingh@gmail.com', 'password@00', '6589447562', 'user1.jpg'),
+(2, 'guru_singh', 'GURU SINGH PAL', 'gurusingh@gmail.com', 'guru@123', '8974872515', 'user2.jpg')
 
 -- --------------------------------------------------------
 
