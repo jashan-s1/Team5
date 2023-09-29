@@ -55,7 +55,6 @@
                     // echo "<td>"; echo $row['FullName']; echo "</td>";
                     echo "<td>
                     <div class='table-info'>
-                        <img src='images/".$row['studentpic']."'>
                         <div>
                             <p>Student ID: ";echo $row['studentid'];echo"</p>
                             <p>";echo $row['FullName'];echo"</p><br>";?>
@@ -87,7 +86,6 @@
                 echo "<tr>";
                 echo "<td>
                     <div class='table-info'>
-                        <img src='images/".$row['studentpic']."'>
                         <div>
                             <p>Student ID: ";echo $row['studentid'];echo"</p>
                             <p>";echo $row['FullName'];echo"</p><br>";?>
