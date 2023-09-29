@@ -87,7 +87,7 @@
                 echo "<tr>";
                 echo "<td>
                     <div class='table-info'>
-                        <img src='images/".$row['studentpic']."'>
+                        <img src='images/user1.jpg".$row['studentpic']."'>
                         <div>
                             <p>Student ID: ";echo $row['studentid'];echo"</p>
                             <p>";echo $row['FullName'];echo"</p><br>";?>
