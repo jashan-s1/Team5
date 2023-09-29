@@ -90,5 +90,4 @@ The application needs to communicate with the database in the backend to get the
 
 - The primary user of the app will be on Windows machines
 - The app will be web based
-- We will be using SQLite for the server backend
-- We will use Python with the flask library to handle the communication between the database and the application
+- We will be using php for server side scripting
